@@ -1,9 +1,13 @@
 *{
-    background-color: cadetblue;
+    background-color: darkgrey;
     color:blue;
 }
 
-span{
+h1{
 
     color: black;
 }
+
+p{
+    color:greenyellow; 
+} 
