@@ -1,6 +1,4 @@
-#heading{  /* calling heading by #*/
-    color: aqua;
-    border: 2px solid sandybrown; 
+h1,p{/* applying properties on two element at once*/
+
+color: rgb(255, 140, 0);
 }
-
-
