@@ -1,7 +1,7 @@
  body{
 
-    background-color: cadetblue;
-background-image: url(img/eth.jpg);
+    /* background-color: cadetblue;
+background-image: url(img/eth.jpg); */
 background-size: 100% 100%;
 background-repeat: no-repeat;
 background-position: center;
@@ -10,15 +10,17 @@ background-attachment: fixed;
 h1{
     color: rgb(0, 0, 0);
     background-color: azure;
-    background-color: aqua;
+    background-color: rgb(48, 126, 126);
  
 }
 
 h2{
     color: rgb(0, 0, 0);
-    background-color: azure;
-     
-}
+    background-color: rgb(255, 255, 255);
+    border-style: solid;  /* border-radius: 10px; border radius only works after border style */
+    border-width: 10px 5px 10px 5px;  
+   border-color: orange blue red green;   /*  orange top  blue right red bottom green left; */
+} 
 .para{
     color: rgb(0, 0, 0);
   
