@@ -1,4 +1,6 @@
-.heading{
+#heading{  /* calling heading by #*/
     color: aqua;
-    border: 2px solid sandybrown;
+    border: 2px solid sandybrown; 
 }
+
+
