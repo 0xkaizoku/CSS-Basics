@@ -1,21 +1,15 @@
-#nDiv{
-    width: 300px;
-    height: 100px;
-    background-color: orchid;
-    border: 2px solid black;
+#btn{
+
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
     
 }
-
-/* using transform */
-
-#myDiv{
-    width: 300px;
-    height: 100px;
-    background-color: orchid;
-    border: 2px solid black;
-   /* transform: rotate(-30deg); */
-   /* transform: scale(0.5,2);  width half height double and *it also works with scaleX, scaleY**/
-   /* transform: translateY(20px); moves 20px to right */
-   /* transform: skew(20deg,30deg); weirdly rotates itself */
-
+#btn:hover{
+    background-color:grey;
+    transition: 1s;
+    width: 200px;
+   transition-delay: 0.2s;
+   transform: rotate(30deg);
 }
