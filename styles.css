@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     border: 5px solid black;
     border-radius: 10px;
@@ -20,21 +24,7 @@
     height: 50px;
     background-color: gold;
     margin: 2px;
-     /* flex properties */
-     flex: auto;
+   box-sizing: content-box;
+   padding: 20px
 }
 
-@media(max-width: 720px){
-    .container{
-        flex-direction: column ;;
-    }
-}
-
-
-@media(min-width: 480px){
-    .container{
-        flex-direction: column ;
-        background-color: antiquewhite;
-        flex-direction: column;
-    }
-}
