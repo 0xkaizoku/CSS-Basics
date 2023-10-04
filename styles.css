@@ -1,30 +1,21 @@
-*{
-    box-sizing: border-box;
+#nDiv{
+    width: 300px;
+    height: 100px;
+    background-color: orchid;
+    border: 2px solid black;
+    
 }
 
-.container{
-    border: 5px solid black;
-    border-radius: 10px;
-    background-color: rgb(44, 37, 37);
-    /* height: 200px;
-    width: 250px; */
-    /* flex properties */
-    display: flex;
-    /* flex-direction: column-reverse; */
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+/* using transform */
+
+#myDiv{
+    width: 300px;
+    height: 100px;
+    background-color: orchid;
+    border: 2px solid black;
+   /* transform: rotate(-30deg); */
+   /* transform: scale(0.5,2);  width half height double and *it also works with scaleX, scaleY**/
+   /* transform: translateY(20px); moves 20px to right */
+   /* transform: skew(20deg,30deg); weirdly rotates itself */
+
 }
-
-.box{
-
-    border: 5px solid orange;
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-    background-color: gold;
-    margin: 2px;
-   box-sizing: content-box;
-   padding: 20px
-}
-
