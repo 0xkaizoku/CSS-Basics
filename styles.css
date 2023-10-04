@@ -7,35 +7,19 @@ background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
 } 
-/* h1{
-    color: rgb(0, 0, 0);
-    background-color: azure;
-    background-color: rgb(48, 126, 126);
+
+a{
+  color: aqua;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: antiquewhite;
 }
-  */
-
-
-#heading{
-
-color:aqua;
-/* background-color: black; */
-text-align: center;
-text-decoration: underline;
-text-transform: dashed;
-text-decoration-thickness: 5px ;
-text-shadow: -.1px -0.5px 1px blue;
-
+a:visited{
+  color: blue;
 }
- p{
-    color: rgb(0, 0, 0);
-   text-align: justify  /* even spacing b/w words */
-    ;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-   text-shadow: -.1px -0.5px 1px blueviolet;   /*horizonal vertical blur color*/
-  /* font-family:Georgia, 'Times New Roman', Times, serif; */
-  font-size : 20px;
-  font-weight: bold;
-  font-style: oblique;
-  font-family: 'Montserrat', sans-serif;
-  }
+a:active{
+  color: chartreuse;
+}
+a:hover{
+  color: crimson;
+}
