@@ -21,8 +21,20 @@
     background-color: gold;
     margin: 2px;
      /* flex properties */
-     /* flex-basis: 200px; */
+     flex: auto;
 }
-/* #box1{
-    /* flex-basis: 200px; 
-}*/
+
+@media(max-width: 720px){
+    .container{
+        flex-direction: column ;;
+    }
+}
+
+
+@media(min-width: 480px){
+    .container{
+        flex-direction: column ;
+        background-color: antiquewhite;
+        flex-direction: column;
+    }
+}
