@@ -8,6 +8,20 @@ background-position: center;
 background-attachment: fixed;
 } 
 
+#div1{
+background-color: cyan;
+height: 300px;
+width: 400px;
+}
+#div2{
+  background-color: yellow;
+  height: 80px;
+  width: 80px;
+  display: block;
+  position: sticky;
+  overflow: scroll;
+  top: 20px;
+}
 
 h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,9 +34,14 @@ span{
   visibility: hidden;
 }
 
+#para{
 
-
-
+  height: 300px;
+  width: 300px;
+background-color: aquamarine;
+position: absolute;
+overflow: scroll;
+}
 
 
 /* a{
