@@ -16,6 +16,8 @@ h1{
 
 span{
   display: block;
+  display: none;
+  visibility: hidden;
 }
 
 
